@@ -1,8 +1,8 @@
 
-import Skill from './components/Skill/Skill'
+import Paper from './components/Paper/Paper'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
-import Paper from './components/Paper/Paper'
+
 import News from './components/News/News'
 import './App.css'
 
@@ -13,8 +13,8 @@ function App() {
     <> 
    <Navbar/>
    <Hero/>
-   <Skill/>
    <Paper/>
+
    <News/>
     </>
   )
