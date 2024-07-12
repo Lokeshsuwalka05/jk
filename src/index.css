@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+  background-color: #000000;
+  color:white;
+}
+/* fonts */
+.poppins-text {
+  font-family: 'Poppins', sans-serif;
+}
+.prompt-text {
+  font-family: 'Prompt', sans-serif;
+ 
+}
+
+.jost-text {
+  font-family: 'Jost', sans-serif;
+}
