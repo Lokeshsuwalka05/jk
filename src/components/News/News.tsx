@@ -4,7 +4,7 @@ const News = () => {
   return (
    
 <>
-<p className="text-4xl font-bold text-newblue text-center">News About me</p><br></br>
+<p className="text-4xl poppins-bold text-newblue text-center">News About me</p><br></br>
       <p className='text-center dm-sans-400'>These are the news about me in various journals</p><br></br>
 <div className="max-w-sm bg-white rounded-lg shadow dark:bg-gray-800 m-8">
     <a href="#">
