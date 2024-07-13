@@ -1,28 +1,36 @@
 import news from '../../assets/news.png'
-
+import business from '../../assets/image 51.png'
 const News = () => {
   return (
    
 <>
 <p className="text-4xl poppins-bold text-newblue text-center">News About me</p><br></br>
       <p className='text-center dm-sans-400'>These are the news about me in various journals</p><br></br>
-<div className="max-w-sm bg-white rounded-lg shadow dark:bg-gray-800 m-8">
-    <a href="#">
-        <img className="m-4" src={news} alt="" />
-    </a>
-    <div className="p-5">
-        <a href="#">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-        </a>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-        <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Read more
-             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-            </svg>
-        </a>
-    </div>
+      
+      <div className="relative flex flex-col mt-6 text-gray-700 shadow-xl bg-clip-border rounded-xl w-96 bg-newblack">
+  <div
+    className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+    <img className='w-full h-full'
+      src={news}
+      alt="card-image" />
+  </div>
+  <div className="p-6">
+    <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+    Seven nominee start-ups topped off Stanford Seed Spark programme
+    </h5>
+    <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+    GAMERS TAG PRIVATE LIMITED Selected
+for the Stanford Seed spark Cohort 06 Batch
+    </p>
+  </div>
+  <div className="p-6 pt-0">
+  <div className="flex justify-center">
+  <img src={business} alt="business" className="w-90 h-16 p-2" />
 </div>
+  </div>
+</div>  
+
+
 </>
   )
 }
