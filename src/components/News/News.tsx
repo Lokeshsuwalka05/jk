@@ -7,7 +7,7 @@ const News = () => {
 <p className="text-4xl poppins-bold text-newblue text-center">News About me</p><br></br>
       <p className='text-center dm-sans-400'>These are the news about me in various journals</p><br></br>
       
-      <div className="relative flex flex-col mt-6 text-gray-700 shadow-xl bg-clip-border rounded-xl w-96 bg-newblack">
+      <div className="relative flex flex-col mt-6 text-gray-700 shadow-xl bg-clip-border rounded-xl w-96 bg-newblack md:m-8">
   <div
     className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
     <img className='w-full h-full'
