@@ -11,14 +11,14 @@ const Hero = () => {
         <img src={heroImage} alt="Description" />
       </div>
       <div className="text sm:text-left text-center">
-        <h1 className="prompt-text text-4xl">JOSHUA KANATT</h1>
-        <p>
+        <h1 className="text-4xl">JOSHUA KANATT</h1>
+        <p className='jost-400'>
         Founder & Chief Executive Officer - GAMERS TAG<br></br></p>
-        <p>
+        <p className='jost-400'>
         Senior Product Architect & Business Analyst | Deakin GMBA | Stanford SSP Entrepreneur | Graduated from IIITB, IMTG, LJMU, HICET, Karunya | Product Growth & Marketing Strategist | Data & Risk Analyst<br></br>
         </p><br></br>
        
-        <p className="poppins-text font-extralight">
+        <p className='poppins-extralight'>
         I'm a visionary entrepreneur with over four years of expertise in Product management, architecture, Marketing, Data analytics, Business development & Consulting, and Startups. Designed over 100 world-class products, setting new industry standards. With unique talent for forecasting product growth, validated by extensive customer persona analysis. As an entrepreneur by heart, I bring a competitive mindset to product ownership,
 assuring highest performance and innovation with mindset of 5x growth. Have a vision to forecast the product. My expertise of numerous business models in multiple industries, refined by my experience.
         </p>
