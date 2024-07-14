@@ -11,7 +11,11 @@ export default {
     },
     extend: {
       height: {
-        '82': '21rem', // Assuming 1rem = 4px, adjust accordingly
+        '82': '21rem',
+        '83':'44rem'           
+      },
+      width:{
+         '82':'21rem'
       }
     },
   },
