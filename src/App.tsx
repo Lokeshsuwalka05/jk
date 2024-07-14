@@ -13,9 +13,10 @@ function App() {
     <> 
    <Navbar/>
    <Hero/>
+   <Skills/>
    <Paper/>
    <News/>
-   <Skills/>
+
     </>
   )
 }
