@@ -24,7 +24,7 @@ assuring highest performance and innovation with mindset of 5x growth. Have a vi
         </p>
         
         <br></br>
-    <p>"The journey of a thousand miles begins with a single innovative step." <br></br>- Joshua Kanatt</p>
+    <p className='md:text-2xl text-xl poppins-extralight'>"The journey of a thousand miles begins with a single innovative step." <br></br>- Joshua Kanatt</p>
  
     <div className="social-media-buttons">
     <a href="https://www.linkedin.com" target="google.com" rel="noopener noreferrer">
