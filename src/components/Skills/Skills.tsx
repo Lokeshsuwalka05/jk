@@ -6,7 +6,7 @@ import img4 from "../../assets/skills/4.png";
 const Skills = () => {
   return (
    <>
-   <p className="mt-8 text-4xl poppins-bold text-newblue text-center">My Skills</p><br></br>
+   <p className="mt-8 text-4xl poppins-bold gradient text-center">My Skills</p><br></br>
       {/* Skills Part */}
 <div className="md:flex">      
 <div className="">
@@ -25,7 +25,7 @@ const Skills = () => {
 
 
 <div className="">
-  <img src={iosimage} alt="Image" className="mt-8 md:h-83"></img>
+  <img src={iosimage} alt="Image" className="mt-8 md:h-83 md:max-w-[525px]"></img>
 </div>
 
 
