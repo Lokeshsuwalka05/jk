@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar poppins-regular p-4">
+    <nav className="navbar poppins-light  p-4">
       <div className="navbar-left">
         <a href="/">Personal Portfolio</a>
       </div>

@@ -256,3 +256,8 @@ background: linear-gradient(to right, #9130F4 0%, #4646F9 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+
+/* Changes color of vertical scrollbar to dark */
+:root {
+  color-scheme: dark;
+}

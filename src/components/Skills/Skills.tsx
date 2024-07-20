@@ -25,7 +25,7 @@ const Skills = () => {
 
 
 <div className="">
-  <img src={iosimage} alt="Image" className="mt-8 md:h-83 md:max-w-[525px]"></img>
+  <img src={iosimage} alt="Image" className="mt-8 md:h-83 md:max-w-[518px]"></img>
 </div>
 
 

@@ -20,9 +20,9 @@ body {
     display: block;
   }
   
-  /* .navbar a:hover {
-    background-color: #575757;
-  } */
+  .navbar a:hover {
+    color:gray;
+  }
   
   .navbar-left a {
     font-weight: bold;
