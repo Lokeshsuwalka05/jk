@@ -1,8 +1,8 @@
-import iosimage from "../../assets/IOS.png";
-import img1 from "../../assets/skills/1.png";
-import img2 from "../../assets/skills/2.png";
-import img3 from "../../assets/skills/3.png";
-import img4 from "../../assets/skills/4.png";
+import iosimage from "../../assets/IOS.webp";
+import img1 from "../../assets/skills/1.webp";
+import img2 from "../../assets/skills/2.webp";
+import img3 from "../../assets/skills/3.webp";
+import img4 from "../../assets/skills/4.webp";
 const Skills = () => {
   return (
    <>

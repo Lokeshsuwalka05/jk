@@ -2,7 +2,7 @@
 import './Hero.css';
 import { FaLinkedin, FaTwitter, FaInstagram, FaFacebook, FaYoutube, FaEnvelope } from 'react-icons/fa';
 
-import heroImage from '../../assets/image.png';
+import heroImage from '../../assets/image.webp';
 const Hero = () => {
   return (
     <>

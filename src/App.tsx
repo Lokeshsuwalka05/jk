@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero'
 import News from './components/News/News'
 import Skills from './components/Skills/Skills'
 import Form from './components/Form/Form'
+// import Testimonials from './components/Testimonials/Testimonials'
 import './App.css'
 
 function App() {
@@ -15,7 +16,9 @@ function App() {
    <Navbar/>
    <Hero/>
    <Skills/>
+   {/* <Testimonials/> */}
    <Paper/>
+
    <News/>
    <Form/>
    <footer className=' text-nwhite text-center p-4'>

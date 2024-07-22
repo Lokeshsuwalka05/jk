@@ -1,5 +1,5 @@
-import news from '../../assets/news.png'
-import business from '../../assets/image 51.png'
+import news from '../../assets/news.webp'
+import business from '../../assets/image 51.webp'
 
 const News = () => {
   return (

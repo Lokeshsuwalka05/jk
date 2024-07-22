@@ -1,7 +1,7 @@
 
-import image32 from '../../assets/image 32.png';
-import image33 from '../../assets/image 33.png';
-import image39 from '../../assets/image 39.png';
+import image32 from '../../assets/image 32.webp';
+import image33 from '../../assets/image 33.webp';
+import image39 from '../../assets/image 39.webp';
 const Paper = () => {
   return (
     <>
