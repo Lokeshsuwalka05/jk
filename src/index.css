@@ -231,6 +231,12 @@
   font-weight: 400;
   font-style: normal;
 }
+.jost-200 {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:200;
+  font-style: normal;
+}
 .jost-300 {
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
@@ -260,4 +266,24 @@ background: linear-gradient(to right, #9130F4 0%, #4646F9 100%);
 /* Changes color of vertical scrollbar to dark */
 :root {
   color-scheme: dark;
+}
+
+h1{
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+.gradient-h1
+{
+background: #FFFFFF;
+background: linear-gradient(to right, #FFFFFF 100%, #C2C2C2 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.gradient-p
+{
+color:#ACACAC
 }

@@ -7,7 +7,7 @@ const Paper = () => {
     <>
   <p className="text-4xl gradient text-center poppins-bold">Projects & Research Papers</p><br></br>
       <p className='text-center ml-8 mr-8 dm-sans-400 '>These are the list of my research papers & articles published in various socials</p><br></br>
-      <div className='poppins-medium font-normal'>
+      <div className='poppins-extralight'>
       <div className="md:flex ml-8 mr-8">
       <div className="text-center m-4">
           <img src={image39} alt="test"/>

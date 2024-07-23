@@ -36,9 +36,8 @@
   color: #dd4b39; /* Email color */
 }
 
-.container {
+/* .container {
     display: flex;
-    /* align-items: center; */
     padding: 20px;
   }
   
@@ -56,7 +55,6 @@
     padding-left: 20px;
   }
   
-  /* Responsive */
   @media (max-width: 768px) {
     .container {
       flex-direction: column;
@@ -69,11 +67,4 @@
     }
    
   }
-  h1{
-    font-size: 2.5em;
-  }
-
-  p {
-    font-size: 0.8em; /* Decrease the font size of p */
-    font-weight: 100;  /* Make the text lighter */
-  }
+ */
