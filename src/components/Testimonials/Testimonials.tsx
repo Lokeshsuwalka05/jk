@@ -51,17 +51,26 @@ const Testimonials: React.FC = () => {
     },
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1400,
         settings: {
-          slidesToShow: 2.1,
+          slidesToShow: 3.06,
           centerPadding: "40px",
         }
-      }, {
+      },
+      {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 2,
+          centerPadding: "40px",
+        }
+      },
+      {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1.08,
-          centerPadding: "20px",
+          slidesToShow: 1.06,
+          centerPadding: "30px",
         }
+
       },
       {
         breakpoint: 500,
@@ -75,7 +84,7 @@ const Testimonials: React.FC = () => {
 
   return (
     <div className={styles.testimonialsSection}>
-      <p className="text-4xl poppins-bold gradient text-center">Testimonials</p><br></br>
+      <p className={styles.sectionTitle}>Testimonials</p>
       <div className={styles.testimonialsContainer}>
         <Slider {...settings}>
           {testimonialsData.map((testimonial, index) => (
